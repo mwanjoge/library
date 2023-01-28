@@ -13,6 +13,8 @@ This is simpo library app to view books
 
 - Clone the repo to your local machine
 - Run composer update command
+- Rename .env.example to .env
+- Run php artisan key:generate to generate key
 - create database of your choice and config the .env file
 - Run php artisan migrate:refresh --seed to create database tables and sample data
 - Run php artisan passport:install command to create API client secret key
