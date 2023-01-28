@@ -29,6 +29,7 @@ This is simpo library app to view books
 - now you can visit other endpoints.
 
 ## API endpoint
+- list of all books http://localhost:8000/api/login  with POST request.
 - list of all books http://localhost:8000/api/books with GET request.
 - list of all favourites books http://localhost:8000/api/favourites/books with GET request.
 
