@@ -17,7 +17,6 @@ class UserController extends AppBaseController
 
     public function __construct(UserRepository $userRepo)
     {
-        $this->authorize('manage_app');
         $this->userRepository = $userRepo;
     }
 
@@ -30,6 +29,7 @@ class UserController extends AppBaseController
      */
     public function index(Request $request)
     {
+        $this->authorize('manage_app');
         $users = $this->userRepository->all();
 
         return view('users.index')

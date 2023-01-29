@@ -19,7 +19,7 @@
                            class='btn btn-default btn-xs'>
                             <i class="far fa-eye"></i>
                         </a>
-                        @can('manage_books')
+                        @can('manage_app')
                         <a href="{{ route('books.edit', [$book->id]) }}"
                            class='btn btn-default btn-xs'>
                             <i class="far fa-edit"></i>
