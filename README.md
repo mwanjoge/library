@@ -20,7 +20,8 @@ This is simpo library app to view books
 - Run php artisan passport:install command to create API client secret key
 - Run your app php artisan serve
 - now you can visit it at localhost:8000
-- login with email: admin@gmail.com and password: admin
+- login with email: admin@gmail.com and password: admin for administrator user
+- You can register for a normal user account of your choice
 
 ## RESTApi
 
